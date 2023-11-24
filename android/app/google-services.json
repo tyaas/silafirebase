@@ -1,0 +1,90 @@
+{
+  "project_info": {
+    "project_number": "25835667802",
+    "project_id": "mobile2-flutter-firebase",
+    "storage_bucket": "mobile2-flutter-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:25835667802:android:ba3693ec5e434c855c3363",
+        "android_client_info": {
+          "package_name": "com.example.basic_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "25835667802-3lgj5u3gfdqm54rua6vsmffmkjpjnn1c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANpZX7Lq3dUU4AnlfLWC0beHUuJhp7v1U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "25835667802-3lgj5u3gfdqm54rua6vsmffmkjpjnn1c.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "25835667802-3efjomkep3e6ssp8lb7ugmcelr50hbeu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.loginQuis.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:25835667802:android:d6a330770c9a8ff45c3363",
+        "android_client_info": {
+          "package_name": "com.example.tvent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "25835667802-q4025hmijgh7bmbar3b4k5rkfgenebr1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tvent",
+            "certificate_hash": "39f4754d327715bc79cb050901d5f7db76971cbf"
+          }
+        },
+        {
+          "client_id": "25835667802-3lgj5u3gfdqm54rua6vsmffmkjpjnn1c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANpZX7Lq3dUU4AnlfLWC0beHUuJhp7v1U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "25835667802-3lgj5u3gfdqm54rua6vsmffmkjpjnn1c.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "25835667802-3efjomkep3e6ssp8lb7ugmcelr50hbeu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.loginQuis.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

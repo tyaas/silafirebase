@@ -7,10 +7,14 @@ class LoginController extends GetxController {
   final cPass = TextEditingController();
   bool showOrHidePass = true;
   bool rememberPass = true;
+
+  get isPasswordHidden => null;
   @override
   void onClose() {
     cEmail.clear();
     cPass.clear();
     super.onClose();
   }
+
+  void togglePasswordVisibility() {}
 }

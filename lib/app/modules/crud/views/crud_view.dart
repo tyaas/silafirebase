@@ -34,7 +34,8 @@ class _CrudViewState extends State<CrudView> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-          title: const Text('Login'),
+          title: const Text('Pendafataran'),
+          backgroundColor: const Color.fromARGB(255, 255, 17, 0),
           centerTitle: true,
           leading: IconButton(
             onPressed: () {

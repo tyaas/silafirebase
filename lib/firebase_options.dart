@@ -23,15 +23,9 @@ class DefaultFirebaseOptions {
       case TargetPlatform.android:
         return android;
       case TargetPlatform.iOS:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for ios - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return ios;
       case TargetPlatform.macOS:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for macos - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return macos;
       case TargetPlatform.windows:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for windows - '
@@ -50,19 +44,37 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyCUwiTk5JcOL5rU7P6pSgBxPzfnLJ0c5jI',
-    appId: '1:25835667802:web:7f468743d19cfaf75c3363',
-    messagingSenderId: '25835667802',
-    projectId: 'mobile2-flutter-firebase',
-    authDomain: 'mobile2-flutter-firebase.firebaseapp.com',
-    storageBucket: 'mobile2-flutter-firebase.appspot.com',
+    apiKey: 'AIzaSyDbuqWTMf716a7yoG0cfIu2TwkkZZDXSqY',
+    appId: '1:305000769937:web:e9174084a30521541a1230',
+    messagingSenderId: '305000769937',
+    projectId: 'kelompok4-e35bf',
+    authDomain: 'kelompok4-e35bf.firebaseapp.com',
+    storageBucket: 'kelompok4-e35bf.appspot.com',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyANpZX7Lq3dUU4AnlfLWC0beHUuJhp7v1U',
-    appId: '1:25835667802:android:ba3693ec5e434c855c3363',
-    messagingSenderId: '25835667802',
-    projectId: 'mobile2-flutter-firebase',
-    storageBucket: 'mobile2-flutter-firebase.appspot.com',
+    apiKey: 'AIzaSyDStRxOrddvDc9HiEC652NY44YZfg8XDtc',
+    appId: '1:305000769937:android:40a495cddabd0f481a1230',
+    messagingSenderId: '305000769937',
+    projectId: 'kelompok4-e35bf',
+    storageBucket: 'kelompok4-e35bf.appspot.com',
+  );
+
+  static const FirebaseOptions ios = FirebaseOptions(
+    apiKey: 'AIzaSyBRQ-k_90zIhl96zWtbTJGwjhj1G5WTB-k',
+    appId: '1:305000769937:ios:5b26bb5e496d131d1a1230',
+    messagingSenderId: '305000769937',
+    projectId: 'kelompok4-e35bf',
+    storageBucket: 'kelompok4-e35bf.appspot.com',
+    iosBundleId: 'com.example.basicFirebase',
+  );
+
+  static const FirebaseOptions macos = FirebaseOptions(
+    apiKey: 'AIzaSyBRQ-k_90zIhl96zWtbTJGwjhj1G5WTB-k',
+    appId: '1:305000769937:ios:06f5aaeec1be39d31a1230',
+    messagingSenderId: '305000769937',
+    projectId: 'kelompok4-e35bf',
+    storageBucket: 'kelompok4-e35bf.appspot.com',
+    iosBundleId: 'com.example.basicFirebase.RunnerTests',
   );
 }
